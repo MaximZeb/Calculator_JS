@@ -23,3 +23,9 @@ function equal () {
 		document.form.textview.value = eval(public);
 	}
 }
+// корень из числа 
+function sqrt () {
+	var public = document.form.textview.value;
+	let equal = Math.sqrt(public);
+	document.form.textview.value = eval(equal);
+}
